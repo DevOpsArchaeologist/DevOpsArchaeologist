@@ -1,7 +1,7 @@
 - 🔭 I’m currently working on all things research & consulting around DevOps and Computer Science that require my mind to go as deep as possible.
 - 💬 Ask me about DevOps,Solution Architect, SRE, cloud engineering, content creation, public speaking, and collaborating with the world!
 - 🌱 I’m currently learning Kubernetes CRD's...
-- 📫 How to reach me: Twitter: @asiss9991 Medium: @devopsarcheologicst or email: asiss9991@clouddev.engineering
+- 📫 How to reach me: Twitter: @asiss9991 Medium: @devopsarcheologicst https://devopsarcheologicst.medium.com or email: asiss9991@clouddev.engineering
 - 😄 Home Base: https://www.asiss9991.net/
 
                                               🧰 Languages and Tools:
