@@ -30,12 +30,9 @@ self-hosted NVIDIA NIM models.
 
 ## Other work
 
-| Project | What it is |
-|---|---|
-| [contract-analyzer](https://github.com/DevOpsArchaeologist/contract-analyzer) | Checks PDF contracts against security-compliance questions with a local LLM (Ollama). Nothing leaves the machine. |
-| [gpu-driver-container](https://github.com/DevOpsArchaeologist/gpu-driver-container) | Fork of NVIDIA's container for provisioning GPU drivers on Kubernetes nodes |
-| [Kubernetes-Quickstart](https://github.com/DevOpsArchaeologist/Kubernetes-Quickstart) | Provisioning and configuring Kubernetes environments |
-| [AWS-CDK-Interview-Questions](https://github.com/DevOpsArchaeologist/AWS-CDK-Interview-Questions) | AWS CDK interview questions in TypeScript |
+[contract-analyzer](https://github.com/DevOpsArchaeologist/contract-analyzer)
+checks PDF contracts against security-compliance questions with a local
+LLM (Ollama). Nothing leaves the machine.
 
 ## Stack
 
@@ -44,6 +41,7 @@ NVIDIA NIM · vLLM · Ollama · Prometheus · GitHub Actions
 
 ## Contact
 
-Writing on [Medium](https://devopsarcheologicst.medium.com). Email
+[LinkedIn](https://www.linkedin.com/in/%F0%9F%91%A9%F0%9F%8F%BB%E2%80%8D%F0%9F%92%BBasis-sethi-52789a18a/) ·
+[Medium](https://devopsarcheologicst.medium.com) · email
 asiss9991@clouddev.engineering. For agentgw, use the
 [early-access form](https://github.com/DevOpsArchaeologist/agentgw/issues/new?template=early-access.yml).
