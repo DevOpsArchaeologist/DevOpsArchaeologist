@@ -1,3 +1,11 @@
+### Building agentgw
+
+**[agentgw](https://devopsarchaeologist.github.io/agentgw/)** is a gateway that caps what one AI agent task can cost and do, across every model, tool and agent it touches. It stops loops, enforces per-task budgets, blocks poisoned MCP tools, and records who did what. Private preview; [request early access](https://github.com/DevOpsArchaeologist/agentgw/issues/new?template=early-access.yml).
+
+[![agentgw demo: a looping agent stopped, a budget enforced, a poisoned MCP tool blocked](https://raw.githubusercontent.com/DevOpsArchaeologist/agentgw/main/media/demo.gif)](https://devopsarchaeologist.github.io/agentgw/#demo)
+
+---
+
 - 🔭 I’m currently working on all things research & consulting around DevOps and Computer Science that require my mind to go as deep as possible.
 - 💬 Ask me about DevOps,Solution Architect, SRE, cloud engineering, content creation, public speaking, and collaborating with the world!
 - 🌱 I’m currently learning Kubernetes CRD's...
