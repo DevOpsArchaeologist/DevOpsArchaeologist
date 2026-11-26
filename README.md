@@ -1,16 +1,49 @@
-### Building agentgw
+# Asis Sethi
 
-**[agentgw](https://devopsarchaeologist.github.io/agentgw/)** is a gateway that caps what one AI agent task can cost and do, across every model, tool and agent it touches. It stops loops, enforces per-task budgets, blocks poisoned MCP tools, and records who did what. Private preview; [request early access](https://github.com/DevOpsArchaeologist/agentgw/issues/new?template=early-access.yml).
+AI DevOps engineer building **agentgw**, a control plane for AI agents.
+15 years in DevOps, SRE and AI infrastructure: Kubernetes, AWS, GPU
+inference and the pipelines that ship them. Based in Toronto.
+
+## agentgw
+
+AI agents fail in expensive ways. They loop, overspend, and call tools no
+one approved. agentgw sits in the network path between agents and
+everything they call (models, MCP tools, other agents) and governs the
+whole task, not one request at a time.
 
 [![agentgw demo: a looping agent stopped, a budget enforced, a poisoned MCP tool blocked](https://raw.githubusercontent.com/DevOpsArchaeologist/agentgw/main/media/demo.gif)](https://devopsarchaeologist.github.io/agentgw/#demo)
 
----
+- **Budgets per task** across every model, tool and agent the task touches
+- **Loop detection** that stops repeated calls and two agents cycling
+- **MCP tool pinning**: a tool whose definition changes is blocked until someone approves it
+- **Guardrail checks** on prompts, model output, tool arguments and tool results
+- **Quotas, retries, canary routing and a response cache**, shaped for long-running agents
+- **Identity and audit**: every call is tied to an agent and a person in an append-only ledger
 
-- 🔭 I’m currently working on all things research & consulting around DevOps and Computer Science that require my mind to go as deep as possible.
-- 💬 Ask me about DevOps,Solution Architect, SRE, cloud engineering, content creation, public speaking, and collaborating with the world!
-- 🌱 I’m currently learning Kubernetes CRD's...
-- 📫 How to reach me: Twitter: @asiss9991 Medium: @devopsarcheologicst https://devopsarcheologicst.medium.com or email: asiss9991@clouddev.engineering
-- 😄 Home Base: https://www.asiss9991.net/
+Written in Go and built test-first: 130+ tests, 29 of them property-based,
+with fuzzing in CI. Ships as a signed Helm chart for Amazon EKS with
+self-hosted NVIDIA NIM models.
 
-                                              🧰 Languages and Tools:
-<img src='https://user-images.githubusercontent.com/79104684/165397024-f6d5a257-3bfa-4178-a15c-06799a7d2a72.png' width='50'> <img src='https://user-images.githubusercontent.com/79104684/165397054-4fa74fa4-ed44-4596-83f6-f5eefb71fcfd.png' width='50'> <img src='https://user-images.githubusercontent.com/79104684/165397079-9c8e9783-7ea9-45e6-8c42-0fe41920ba5a.png' width='50'> <img src='https://user-images.githubusercontent.com/79104684/165397126-56d67900-730c-414d-a2b7-8049e26cbcd0.png' width='50'> <img src='https://user-images.githubusercontent.com/79104684/165397157-68dfb9b2-85d2-4a70-aefd-ea10a7b2b9f8.png' width='50'> <img src='https://user-images.githubusercontent.com/79104684/165397330-3da6c652-79d3-428a-a81a-13ca96c3f375.png' width='50'>
+**[Website](https://devopsarchaeologist.github.io/agentgw/)** ·
+**[Watch the demo](https://devopsarchaeologist.github.io/agentgw/#demo)** ·
+**[Request early access](https://github.com/DevOpsArchaeologist/agentgw/issues/new?template=early-access.yml)**
+
+## Other work
+
+| Project | What it is |
+|---|---|
+| [contract-analyzer](https://github.com/DevOpsArchaeologist/contract-analyzer) | Checks PDF contracts against security-compliance questions with a local LLM (Ollama). Nothing leaves the machine. |
+| [gpu-driver-container](https://github.com/DevOpsArchaeologist/gpu-driver-container) | Fork of NVIDIA's container for provisioning GPU drivers on Kubernetes nodes |
+| [Kubernetes-Quickstart](https://github.com/DevOpsArchaeologist/Kubernetes-Quickstart) | Provisioning and configuring Kubernetes environments |
+| [AWS-CDK-Interview-Questions](https://github.com/DevOpsArchaeologist/AWS-CDK-Interview-Questions) | AWS CDK interview questions in TypeScript |
+
+## Stack
+
+Go · Python · TypeScript · Kubernetes · Amazon EKS · AWS CDK · Helm ·
+NVIDIA NIM · vLLM · Ollama · Prometheus · GitHub Actions
+
+## Contact
+
+Writing on [Medium](https://devopsarcheologicst.medium.com). Email
+asiss9991@clouddev.engineering. For agentgw, use the
+[early-access form](https://github.com/DevOpsArchaeologist/agentgw/issues/new?template=early-access.yml).
