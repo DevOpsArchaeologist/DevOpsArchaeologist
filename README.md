@@ -43,5 +43,5 @@ NVIDIA NIM · vLLM · Ollama · Prometheus · GitHub Actions
 
 [LinkedIn](https://www.linkedin.com/in/%F0%9F%91%A9%F0%9F%8F%BB%E2%80%8D%F0%9F%92%BBasis-sethi-52789a18a/) ·
 [Medium](https://devopsarcheologicst.medium.com) · email
-asiss9991@clouddev.engineering. For agentgw, use the
+asiss9991@gmail.com. For agentgw, use the
 [early-access form](https://github.com/DevOpsArchaeologist/agentgw/issues/new?template=early-access.yml).
